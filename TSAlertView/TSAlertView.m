@@ -411,7 +411,7 @@ const CGFloat kTSAlertView_ColumnMargin = 10.0;
 {
 	if ( _backgroundImage == nil )
 	{
-		self.backgroundImage = [[UIImage imageNamed: @"TSAlertViewBackground.png"] stretchableImageWithLeftCapWidth: 15 topCapHeight: 30];
+		self.backgroundImage = [[UIImage imageNamed: @"TSAlertViewBackgroundBlack.png"] stretchableImageWithLeftCapWidth: 15 topCapHeight: 30];
 	}
 	
 	return _backgroundImage;

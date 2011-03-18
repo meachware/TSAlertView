@@ -24,6 +24,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		DEC115CF1333DDD8009CC6DB /* TSAlertViewBackground2Black.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC115CD1333DDD6009CC6DB /* TSAlertViewBackground2Black.png */; };
+		DEC115D01333DDD8009CC6DB /* TSAlertViewBackgroundBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = DEC115CE1333DDD7009CC6DB /* TSAlertViewBackgroundBlack.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* TSAVDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAVDemo_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TSAVDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TSAVDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DEC115CD1333DDD6009CC6DB /* TSAlertViewBackground2Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewBackground2Black.png; sourceTree = "<group>"; };
+		DEC115CE1333DDD7009CC6DB /* TSAlertViewBackgroundBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSAlertViewBackgroundBlack.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				01A5389A12E954E400B0F4A4 /* TSAlertViewMessageListViewShadow.png */,
 				01A5389B12E954E400B0F4A4 /* TSAlertViewBackground.png */,
 				01A5389C12E954E400B0F4A4 /* TSAlertViewBackground2.png */,
+				DEC115CD1333DDD6009CC6DB /* TSAlertViewBackground2Black.png */,
+				DEC115CE1333DDD7009CC6DB /* TSAlertViewBackgroundBlack.png */,
 				01A5389D12E954E400B0F4A4 /* TSAlertViewButtonBackground.png */,
 				01A5389E12E954E400B0F4A4 /* TSAlertViewButtonBackground_Highlighted.png */,
 				01A5389F12E954E400B0F4A4 /* TSAlertViewCancelButtonBackground.png */,
@@ -198,6 +204,8 @@
 				01A5399D12E9F4A600B0F4A4 /* TSAVDemoViewController.xib in Resources */,
 				01A5399F12E9F4B500B0F4A4 /* MainWindow-iPad.xib in Resources */,
 				013DD51B12ECF0D300B34A41 /* Source Code License.rtf in Resources */,
+				DEC115CF1333DDD8009CC6DB /* TSAlertViewBackground2Black.png in Resources */,
+				DEC115D01333DDD8009CC6DB /* TSAlertViewBackgroundBlack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
