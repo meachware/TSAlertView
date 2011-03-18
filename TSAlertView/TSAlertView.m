@@ -34,10 +34,12 @@
 	
 	CGFloat width			= self.frame.size.width;
 	CGFloat height			= self.frame.size.height;
-	CGFloat locations[3]	= { 0.0, 0.5, 1.0 	};
-	CGFloat components[12]	= {	1, 1, 1, 0.5,
-		0, 0, 0, 0.5,
-		0, 0, 0, 0.7	};
+	CGFloat locations[3]	= { 0.0, 0.7, 1.0 	};
+	CGFloat components[12]	= {	
+        0, 0, 0, 0.0,
+		0, 0, 0, 0.8,
+		0, 0, 0, 1
+    };
 	
 	CGColorSpaceRef colorspace = CGColorSpaceCreateDeviceRGB();
 	CGGradientRef backgroundGradient = CGGradientCreateWithColorComponents(colorspace, components, locations, 3);
